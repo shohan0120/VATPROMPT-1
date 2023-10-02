@@ -1,0 +1,116 @@
+{
+    "actions": [
+      {
+        "Identifier":"VAT Transaction",
+        "Type": "click",
+        "locators": "//a[@id='HyperLink4']"
+      },
+      
+      {
+        "Identifier":"ক্রয় চালানপত্র",
+        "Type": "click",
+        "locators": "//a[@id='MainContent_HyperLink4']"
+      },
+
+      {
+        "Identifier":"Registration Type Dropdown Select",
+        "Type": "click",
+        "locators": "//option[contains(text(),'Regular Registered (VAT)')]"
+      },
+
+      {
+        "Identifier":"Supplier Name Dropdown Select",
+        "Type": "click",
+        "locators": "//option[contains(text(),'1.0 Local Purchase NEW TEST CLIENT')]"
+      },
+
+      {
+        "Identifier":"Ref.Challan No 6.3",
+        "Type": "textbox",
+        "locators": "//input[@id='MainContent_txtChallanNo']",
+        "value": "2 Oct challan 2"
+      },
+
+      {
+        "Identifier":"Item Name",
+        "Type": "click",
+        "locators": "//option[contains(text(),'2 OCT TEST 1-4403.22.00-326499694425')]"
+      },
+
+      {
+        "Identifier":"Quantity",
+        "Type": "textbox",
+        "locators": "//input[@id='MainContent_txtQuantity']",
+        "value":"1"
+      },
+
+      {
+        "Identifier":"Unit Price Click",
+        "Type": "click",
+        "locators": "//input[@id='MainContent_txtPurchaseUnitPrice']",
+        "value":"1"
+      },
+
+      {
+        "Identifier":"Unit Price",
+        "Type": "textbox",
+        "locators": "//input[@id='MainContent_txtPurchaseUnitPrice']",
+        "value":"100"
+      },
+
+      {
+        "Identifier":"Click to calculate",
+        "Type": "click",
+        "locators": "//div[@id='MainContent_part_a']"
+      },
+
+      {
+        "Identifier":"Unit Difference Ok",
+        "Type": "click",
+        "locators": "//input[@id='MainContent_msgBox_btnOK']"
+      },
+
+      {
+        "Identifier":"Ok click to calculate",
+        "Type": "click",
+        "locators": "//div[@id='MainContent_part_a']"
+      },
+
+      {
+        "Identifier":"Add Item",
+        "Type": "click",
+        "locators": "//input[@id='MainContent_btnAdd']"
+      },
+
+      {
+        "Identifier":"Add Payment",
+        "Type": "click",
+        "locators": "//input[@id='MainContent_ClientButton']"
+      },
+
+      {
+        "Identifier":"Cash",
+        "Type": "click",
+        "locators": "//input[@id='MainContent_chkCash']"
+      },
+
+      {
+        "Identifier":"Ok",
+        "Type": "click",
+        "locators": "//input[@id='MainContent_OKButton']"
+      },
+
+      {
+        "Identifier":"Ok alert",
+        "Type": "alert",
+        "locators": "abx"
+      },
+
+      {
+        "Identifier":"Save",
+        "Type": "click",
+        "locators": "//input[@id='MainContent_btnSave']"
+      }
+      
+    ]
+  }

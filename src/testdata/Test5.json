@@ -1,0 +1,39 @@
+{
+    "actions": [
+      {
+        "Identifier":"UserName",
+        "Type": "textbox",
+        "locators": "//input[@id='ContentPlaceHolder1_txtUserId']",
+        "value": "shohan"
+      },
+      {
+        "Identifier":"Password",
+        "Type": "textbox",
+        "locators": "//input[@id='ContentPlaceHolder1_txtPassword']",
+        "value": "123"
+      },
+      {
+        "Identifier":"LoginButton",
+        "Type": "click",
+        "locators": "//input[@id='ContentPlaceHolder1_btnLogin']"
+      },
+      {
+        "Identifier":"UserName",
+        "Type": "textbox",
+        "locators": "//input[@id='ContentPlaceHolder1_txtUserId']",
+        "value": "tcl"
+      },
+      {
+        "Identifier":"Password",
+        "Type": "textbox",
+        "locators": "//input[@id='ContentPlaceHolder1_txtPassword']",
+        "value": "123"
+      },
+      {
+        "Identifier":"LoginButton",
+        "Type": "click",
+        "locators": "//input[@id='ContentPlaceHolder1_btnLogin']"
+      }
+    ]
+  }
+  
